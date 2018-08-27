@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+}
+
+.Intro {
+    /* The image used */
+    position: relative;
+    
+   
+    padding-top: calc(22rem + 72px);
+    padding-bottom: 10rem;
+    background-image: url('images/taxi.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+
+.title{
+    font-size: 1.3em;
+}
+
+.title2{
+    font-size: 1em;
+}
+
+.size-txt{
+
+
+ max-width: 400px
+   
+}
+
+.border-cont{
+
+
+    max-width: 1200px
+      
+   }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding-right: 80px;
+}
+
+.nav {
+    background-color: white;
+}
+
+
+section.background-conduce {
+    position: relative;
+    overflow: hidden;
+    background-image: url('images/conduce.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+   
+  }
+  section.background-conduce .background-contenido-conduce{
+    padding-top: calc(5rem + 72px);
+    padding-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.56);
+    
+}
+
+@media (min-width: 768px){
+
+section.background-conduce .background-contenido-conduce {
+    margin-left: 800px;
+}
+}
